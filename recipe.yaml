@@ -17,10 +17,6 @@ tasks:
       src: ./tmp/cfx-server-data-88f4f974b855e0bf2ca5f51b9916648bd5b7d44b/resources
       dest: ./resources
 
-  -   action: download_github
-      src: https://github.com/rhscloud/D-Loading
-      dest: ./resources/[new]
-
     - action: download_file
       url: https://raw.githubusercontent.com/tabarra/txAdmin-recipes/bbaf78c04b0cd1cff3a2b9c8a48834dfe8eeea7d/cfx_default/server.cfg
       path: ./server.cfg

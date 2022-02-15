@@ -18,7 +18,7 @@ tasks:
       src: ./tmp/cfx-server-data-88f4f974b855e0bf2ca5f51b9916648bd5b7d44b/resources
       dest: ./resources
       
-    - action: download_file
+    - action: download_github
       url: https://github.com/rhscloud/D-Loading
       path: ./tmp/cfx-server-data.zip      
     
